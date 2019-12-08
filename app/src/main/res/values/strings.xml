@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">JavierMorales-examen</string>
+    <string name="app_name">Semana 5</string>
+    <string name="descripcionFuncNotas">Responda la Encuesta a continuación</string>
+
+    <string name="data_1">¿Por qué eligió este centro educativo?</string>
+    <string name="data_2">¿Qué deportes practica?</string>
+    <string name="data_3">Está interesado en aprender otro idioma aparte de inglés.</string>
+    <string name="data_4">Que tipo de escuela escogería para sus hijos</string>
+    <string name="data_5">Que alimentos le gustaría que formasen parte del lunch escolar</string>
+    <string name="data_6">Nota Parcial 2</string>
+    <string name="data_7">Nota Final</string>
+    <string name="verificar">Enviar</string>
+    <string name="nota">Contesta todas las preguntas</string>
+    <string name="resultado">Resultado</string>
 </resources>
