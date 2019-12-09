@@ -31,7 +31,7 @@ public class Resumen extends AppCompatActivity {
         resp1= (TextView)findViewById(R.id.txt_resp1);
         resp2= (TextView)findViewById(R.id.txt_resp2);
         resp3= (TextView)findViewById(R.id.txt_resp3);
-
+        nombreEst = (TextView)findViewById(R.id.txt_nomEst);
 
         saludo = (TextView)findViewById(R.id.txt_materia4);
 
@@ -42,9 +42,7 @@ public class Resumen extends AppCompatActivity {
 
 
         /*Extraido el usuario que viene seteado desde el bundle de Registro*/
-        data.getString("userLogged");
         usuarioLogeado = payload.get("userLogged").toString();
-        data.getString("nombreEstudiante");
         nombreEstudiante = payload.get("nombreEstudiante").toString();
 
         nombreEst.setText(nombreEstudiante);
