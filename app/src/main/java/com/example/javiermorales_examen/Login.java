@@ -30,7 +30,7 @@ public class Login extends AppCompatActivity {
         botonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(txt_user.getText().toString().equals("estudiante2019") && txt_pass.getText().toString().equals("uisrael.2019")){
+                if(txt_user.getText().toString().equals("estudiante2019") && txt_pass.getText().toString().equals("uisrael2019")){
                     Intent intent = new Intent(view.getContext(), Registro.class);
                     intent.putExtra("userLoggedIn",txt_user.getText().toString());
                     startActivity(intent);
